@@ -60,8 +60,8 @@ Provide instructions on how to set up and install your project. This might inclu
 - Installing dependencies.
 
 ```bash
-git clone azure_function_iac
-cd azure_function_iac
+git clone azure_function
+cd azure_function
 git init
 git remote add origin
 git pull origin master
