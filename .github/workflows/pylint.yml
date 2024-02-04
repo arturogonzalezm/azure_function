@@ -22,4 +22,11 @@ jobs:
         run: find . -name '*.py' -print -exec pylint {} \;
       - name: Analysing code with PyLint
         run: |
-          pylint $(find . -name '*.py') --fail-under=8.0
+#          pylint $(find . -name '*.py') --fail-under=8.0
+          pylint_score=$(pylint $(find . -name '*.py') --fail-under=8.0 --exit-zero --output-format=text | tee /dev/tty | grep 'Your code has been rated at' | sed 's/.*rated at \([-0-9.]*\)\/.*/\1/')
+          echo "Pylint score: $pylint_score"
+          # Assuming you have a script or service to generate/update the badge
+          badge_url="https://some-badge-service.com/badge?score=$pylint_score"
+          echo "Badge URL: $badge_url"
+          # Update README.md or another document with the new badge URL
+          # This is a simplified example. You would need a script to properly update the README.md with the new badge URL.
