@@ -22,4 +22,4 @@ jobs:
         run: find . -name '*.py' -print -exec pylint {} \;
       - name: Analysing code with PyLint
         run: |
-          pylint $(find . -name '*.py') --fail-under=8.0
+          pylint $(find . -name '*.py') --fail-under=10.0
