@@ -1,0 +1,13 @@
+pylint
+pytest
+azure-functions
+azure-storage-blob
+azure-core
+azure-common
+pykeepass
+pytz
+requests
+azure-extras
+msal>=1.24.0,<2.0.0
+azure-identity
+azure-keyvault-secrets
