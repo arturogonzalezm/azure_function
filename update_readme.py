@@ -1,3 +1,4 @@
+import sys
 import re
 
 
@@ -25,6 +26,10 @@ def update_badge_in_readme(readme_path, new_badge_url):
 
 # Example usage
 if __name__ == "__main__":
-    new_badge_url = "https://img.shields.io/badge/PyLint-9.5%2F10-green"
-    readme_path = "README.md"
+    if len(sys.argv) < 3:
+        print("Usage: python update_readme.py README_PATH NEW_BADGE_URL")
+        sys.exit(1)
+
+    readme_path = sys.argv[1]
+    new_badge_url = sys.argv[2]
     update_badge_in_readme(readme_path, new_badge_url)

@@ -28,5 +28,7 @@ jobs:
           # Assuming you have a script or service to generate/update the badge
           badge_url="https://some-badge-service.com/badge?score=$pylint_score"
           echo "Badge URL: $badge_url"
-          # Update README.md or another document with the new badge URL
-          # This is a simplified example. You would need a script to properly update the README.md with the new badge URL.
+      - name: Update README with Pylint Badge
+        run: python update_readme.py README.md ${{ env.NEW_BADGE_URL }}
+
+
