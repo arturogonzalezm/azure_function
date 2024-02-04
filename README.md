@@ -1,6 +1,6 @@
 [![codecov](https://codecov.io/gh/arturogonzalezm/azure_function/graph/badge.svg?token=BI2H4A2VJT)](https://codecov.io/gh/arturogonzalezm/azure_function)
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://github.com/arturogonzalezm/azure_function/blob/master/LICENSE)
-[![Read the Docs](https://img.shields.io/readthedocs/badge.svg)](https://github.com/arturogonzalezm/azure_function/blob/master/README.md)
+[![Read the Docs](https://img.shields.io/readthedocs/:packageName)](https://github.com/arturogonzalezm/azure_function/blob/master/README.md)
 [![Python test with Github Actions](https://github.com/arturogonzalezm/azure_function/actions/workflows/pylint.yml/badge.svg)](https://github.com/arturogonzalezm/azure_function/actions/workflows/pylint.yml)
 
 
