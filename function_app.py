@@ -20,7 +20,7 @@ app = func.FunctionApp()  # Initialize the Azure Function
 # ENABLE_ORYX_BUILD = false new comment
 
 
-@app.function_name(name="hss-rddp-af-webeoc")  # Set the name of the function
+@app.function_name(name="azure-function")  # Set the name of the function
 @app.schedule(schedule="0 */1 * * * *", arg_name="mytimer", run_on_startup=True, use_monitor=True)  # Set the schedule
 def test_function(mytimer: func.TimerRequest) -> None:
     """
