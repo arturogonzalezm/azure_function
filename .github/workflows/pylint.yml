@@ -26,7 +26,7 @@ jobs:
           pylint_score=$(pylint $(find . -name '*.py') --fail-under=8.0 --exit-zero --output-format=text | tee /dev/tty | grep 'Your code has been rated at' | sed 's/.*rated at \([-0-9.]*\)\/.*/\1/')
           echo "Pylint score: $pylint_score"
           # Assuming you have a script or service to generate/update the badge
-          badge_url="https://some-badge-service.com/badge?score=$pylint_score"
+          badge_url="https://img.shields.io/badge?score=$pylint_score"
           echo "Badge URL: $badge_url"
       - name: Update README with Pylint Badge
         run: python update_readme.py README.md ${{ env.NEW_BADGE_URL }}
