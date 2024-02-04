@@ -1,6 +1,3 @@
-import logging
-
-# This is the corrected position for the module docstring.
 """
 This module provides a utility for configuring and retrieving loggers.
 It ensures that each logger is configured to use a consistent format
@@ -8,6 +5,8 @@ and level across the application. This setup is particularly useful
 for applications deployed in environments like Azure Functions,
 where it can integrate with Azure's monitoring tools.
 """
+
+import logging
 
 
 class LoggerUtility:
@@ -17,18 +16,18 @@ class LoggerUtility:
     """
     _configured = False
 
-    @staticmethod
-    def configure_logger():
+    @classmethod
+    def configure_logger(cls):
         """
         Configure the logger to use the default settings. This method sets
         the basic configuration for the logging system, adjusting the log level
         and format. It is designed to work with Azure Functions, enabling
         integration with Application Insights and other monitoring tools.
         """
-        if not LoggerUtility._configured:
+        if not cls._configured:
             logging.basicConfig(level=logging.INFO,
                                 format='%(asctime)s - %(levelname)s - %(message)s')
-            LoggerUtility._configured = True
+            cls._configured = True
 
     @staticmethod
     def get_logger(name):
