@@ -33,7 +33,7 @@
     # Text to display in the badge
     #
     # Optional, Default: PyLint
-    badge-text: Dynamic PyLint
+    badge-text: PyLint
 
     # Color of the badge for pylint scores < 5.
     # Hex, rgb, rgba, hsl, hsla and css named colors can all be used
