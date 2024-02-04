@@ -2,7 +2,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://github.com/arturogonzalezm/azure_function/blob/master/LICENSE)
 [![Read the Docs](https://img.shields.io/readthedocs/:packageName)](https://github.com/arturogonzalezm/azure_function/wiki)
 [![PyLint](https://github.com/arturogonzalezm/azure_function/actions/workflows/pylint.yml/badge.svg)](https://github.com/arturogonzalezm/azure_function/actions/workflows/pylint.yml)
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/arturogonzalezm/azure_function)
 
 
 
