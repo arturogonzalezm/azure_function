@@ -1,7 +1,7 @@
-[![codecov](https://codecov.io/gh/arturogonzalezm/azure_function_iac/graph/badge.svg?token=V0XK325ILC)](https://codecov.io/gh/arturogonzalezm/azure_function_iac)
-[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://github.com/arturogonzalezm/azure_function_iac/blob/master/LICENSE)
-[![Read the Docs](https://img.shields.io/readthedocs/:packageName)](https://github.com/arturogonzalezm/azure_function_iac/blob/master/README.md)
-[![Python test with Github Actions](https://github.com/arturogonzalezm/azure_function_iac/actions/workflows/pylint.yml/badge.svg)](https://github.com/arturogonzalezm/azure_function_iac/actions/workflows/pylint.yml)
+[![codecov](https://codecov.io/gh/arturogonzalezm/azure_function/graph/badge.svg?token=V0XK325ILC)](https://codecov.io/gh/arturogonzalezm/azure_function)
+[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg)](https://github.com/arturogonzalezm/azure_function/blob/master/LICENSE)
+[![Read the Docs](https://img.shields.io/readthedocs/:packageName)](https://github.com/arturogonzalezm/azure_function/blob/master/README.md)
+[![Python test with Github Actions](https://github.com/arturogonzalezm/azure_function/actions/workflows/pylint.yml/badge.svg)](https://github.com/arturogonzalezm/azure_function/actions/workflows/pylint.yml)
 
 
 
